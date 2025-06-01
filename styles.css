@@ -241,13 +241,14 @@ h2 {
   text-align: center;
   font-weight: 600;
   color: var(--text-white);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
   box-shadow: var(--shadow);
 }
 
 .skill__item:hover {
-  transform: scale(50%);
-  box-shadow: var(--shadow), 0 10px 20px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  border: 2px solid var(--accent-color);
 }
 
 .about__image {
@@ -291,17 +292,17 @@ h2 {
   margin: 0 1rem;
   background-color: var(--secondary-color);
   padding: 1.5rem;
-  border-radius: 30px;
+  border-radius: 20px;
   text-align: center;
   box-shadow: var(--shadow);
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease, opacity 0.3s ease;
 }
 
 .project-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
   background-color: var(--extra-light);
-  color: var(--primary-color);
-  transform: translateY(-100px);
-  opacity: 10;
+  opacity: 1;
 }
 
 .project-item img {
@@ -331,11 +332,12 @@ h2 {
   text-decoration: none;
   border-radius: 50px;
   font-weight: 600;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .project-link:hover {
   background-color: #388e3c;
+  transform: translateY(-2px);
 }
 
 .carousel-btn {
