@@ -43,12 +43,6 @@ navigation, animated skills section, and enhanced accessibility.
 2. Connect the repository to Vercel via the dashboard.
 3. Deploy and share the live URL with clients.
 
-## Future Improvements
-
-- Integrate a TypeScript/Node.js API with Supabase for dynamic project data.
-- Develop a custom WordPress theme based on this design using PHP.
-- Create a Python script to automate portfolio updates and analytics.
-
 ## Contact
 
 For freelance opportunities, contact me via:
