@@ -26,7 +26,7 @@ navigation, animated skills section, and enhanced accessibility.
 ## How to Run Locally
 
 1. Clone the repository:  
-   `git clone <your-repo-url>`
+   `git clone <https://github.com/dev-queiroz/Creative-Agency.git>`
 2. Place assets (images: `profile.jpg`, `about.jpg`, `project1.jpg`, `project2.jpg`, `project3.jpg`, `github-icon.png`,
    `linkedin-icon.png`) in the `assets/` folder.
 3. Open `index.html` in a browser or use a local server:  
